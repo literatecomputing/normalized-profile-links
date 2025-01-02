@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: add normalized links to user card and profile
+    settings:
+      example_setting: A description of a setting.

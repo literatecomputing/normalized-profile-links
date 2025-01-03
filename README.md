@@ -28,3 +28,5 @@ If you require additional [Font Awesome Icons](https://fontawesome.com/v6/search
 A bunch of the sample settings are provided by AI completion and not tested. You can make changes to the settings yourself, but if you let me know about a broken one (via email or PR) I will be happy to fix it.
 
 Another feature I have considered is making it possible to have entries appear on only the User Card or User Profile, rather than both. If that's of interest, please let me know, especially if you have a budget.
+
+Thanks to [Gray Arrows Drone Club](https://greyarro.ws/) for funding initial development!

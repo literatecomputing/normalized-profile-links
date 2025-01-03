@@ -1,4 +1,4 @@
-svg_icons:
+additional_icons:
   type: "list"
   default: "question-circle|wallet|fab-x-twitter|fab-twitter|square-x-twitter|cloud|fab-github|fab-linkedin|fab-youtube|fab-vimeo|fab-instagram|fab-tiktok|fab-facebook|fab-threads|fab-mastodon|fab-strava"
   list_type: "compact"

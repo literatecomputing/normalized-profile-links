@@ -1,0 +1,13 @@
+.normalized-user-fields {
+  display: flex;
+  flex-direction: column;
+  a {
+    margin-right: 5px;
+  }
+  .fa {
+    font-size: 1.2em;
+  }
+  .fa.d-icon.svg-icon.svg-string {
+    margin-left: 0px;
+  }
+}

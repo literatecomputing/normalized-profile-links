@@ -1,2 +1,72 @@
-example_setting:
-  default: true
+svg_icons:
+  type: "list"
+  default: "question-circle|wallet|fab-x-twitter|fab-twitter|square-x-twitter|cloud|fab-github|fab-linkedin|fab-youtube|fab-vimeo|fab-instagram|fab-tiktok|fab-facebook|fab-threads|fab-mastodon|fab-strava"
+  list_type: "compact"
+
+profile_links:
+  type: objects
+  default:
+    - custom_field_name: X
+      icon: fab-x-twitter
+      url: https://x.com/
+      title: X
+    - custom_field_name: X (Twitter)
+      icon: x-twitter
+      url: https://x.com/
+      title: X
+    - custom_field_name: BlueSky
+      icon: cloud
+      url: https://bsky.app/profile
+      title: BlueSky
+    - custom_field_name: GitHub
+      icon: fab-github
+      url: https://github.com
+      title: GitHub
+    - custom_field_name: LinkedIn
+      icon: fab-linkedin
+      url: https://linkedin.com
+      title: LinkedIn
+    - custom_field_name: youtube
+      icon: fab-youtube
+      url: https://youtube.com
+      title: YouTube
+    - custom_field_name: Vimeo
+      icon: fab-vimeo
+      url: https://vimeo.com
+      title: Vimeo
+    - custom_field_name: Instagram
+      icon: fab-instagram
+      url: https://instagram.com
+      title: Instagram
+    - custom_field_name: TikTok
+      icon: fab-tiktok
+      url: https://tiktok.com
+      title: TikTok
+    - custom_field_name: Facebook
+      icon: fab-facebook
+      url: https://facebook.com
+      title: Facebook
+    - custom_field_name: Threads
+      icon: fab-threads
+      url: https://threads.net
+      title: Threads
+    - custom_field_name: Mastodon
+      icon: fab-mastodon
+      url: https://mastodon.social
+      title: Mastodon
+    - custom_field_name: Strava
+      icon: fab-strava
+      url: https://strava.com/athletes/
+      title: Strava
+
+  schema:
+    name: site
+    properties:
+      custom_field_name:
+        type: string
+      icon:
+        type: string
+      url:
+        type: string
+      title:
+        type: string

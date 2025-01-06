@@ -18,7 +18,8 @@ export default class NormalizedProfileLinks extends Service {
       return null;
     }
 
-    const normalizedBase = baseUrl.endsWith("/") || baseUrl.endsWith("@") ? baseUrl : baseUrl + "/";
+    const normalizedBase =
+      baseUrl.endsWith("/") || baseUrl.endsWith("@") ? baseUrl : baseUrl + "/";
     return `${normalizedBase}${username}`;
   }
 

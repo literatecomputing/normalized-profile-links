@@ -28,7 +28,7 @@ profile_links:
       title: LinkedIn
     - custom_field_name: youtube
       icon: fab-youtube
-      url: https://youtube.com
+      url: https://youtube.com/@
       title: YouTube
     - custom_field_name: Vimeo
       icon: fab-vimeo
@@ -40,7 +40,7 @@ profile_links:
       title: Instagram
     - custom_field_name: TikTok
       icon: fab-tiktok
-      url: https://tiktok.com
+      url: https://tiktok.com/@
       title: TikTok
     - custom_field_name: Facebook
       icon: fab-facebook
@@ -58,6 +58,10 @@ profile_links:
       icon: fab-strava
       url: https://strava.com/athletes/
       title: Strava
+    - custom_field_name: meta.discourse.org
+      icon: fab-discourse
+      url: https://meta.discourse.org/u/
+      title: Meta Discourse
 
   schema:
     name: site

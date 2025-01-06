@@ -8,6 +8,7 @@ export default class NormalizedProfileLinks extends Service {
 
     // Get the last segment after / or @
     const match = input.match(/[/@]([^/@\s]+)$/);
+    // const match = input.match(/(@[^/@\s]+|[^/@\s]+)$/);
     return match ? match[1] : input.trim();
   }
 

@@ -20,7 +20,7 @@ export default class NormalizedProfileLinks extends Component {
       {{#each this.list as |field|}}
         {{#if field.href}}
           <div>
-            {{#unless field.icon}}{{field.name}}:{{/unless}}
+            {{#unless field.icon}}{{field.title}}:{{/unless}}
             <a
               href={{field.href}}
               rel="noopener noreferrer"

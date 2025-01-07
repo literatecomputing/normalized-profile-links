@@ -37,4 +37,4 @@ A bunch of the sample settings are provided by AI completion and not tested. You
 
 Another feature I have considered is making it possible to have entries appear on only the User Card or User Profile, rather than both. If that's of interest, please let me know, especially if you have a budget.
 
-Thanks to [Gray Arrows Drone Club](https://greyarro.ws/) for funding initial development!
+Thanks to [Grey Arrows Drone Club](https://greyarro.ws/) for funding initial development!

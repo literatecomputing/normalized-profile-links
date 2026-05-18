@@ -42,8 +42,8 @@ export default class NormalizedProfileLinks extends Service {
         //   "custom_field_name",
         //   field.link.value
         // )[0];
-
-        const fieldId = siteUserFields.filterBy("name", fieldName)[0]?.id;
+        const fieldId = siteUserFields.find(f => f.name === fieldName)?.id; // -- updated to find() for deprecation of filterBY() -- //
+        //const fieldId = siteUserFields.filterBy("name", fieldName)[0]?.id;
         const handle = userFields[fieldId];
 
         // console.log("field", field, handle);
@@ -71,6 +71,8 @@ export default class NormalizedProfileLinks extends Service {
 
         return field;
       })
-      .compact();
+      .filter(Boolean); // -- updated from deprecated compact() -- //
+
+      //.compact();
   }
 }

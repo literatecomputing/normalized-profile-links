@@ -71,6 +71,8 @@ export default class NormalizedProfileLinks extends Service {
 
         return field;
       })
-      .compact();
+      .filter(Boolean);
+
+      //.compact();
   }
 }

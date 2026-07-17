@@ -1,6 +1,6 @@
 import Component from "@glimmer/component";
 import { service } from "@ember/service";
-import icon from "discourse-common/helpers/d-icon"; // Assuming this helper is valid.
+import dIcon from "discourse/ui-kit/helpers/d-icon"; // Assuming this helper is valid.
 
 export default class NormalizedProfileLinks extends Component {
   @service linksSettings;
@@ -28,7 +28,7 @@ export default class NormalizedProfileLinks extends Component {
               title={{field.handle}}
             >
               {{#if field.icon}}
-                {{icon field.icon}}
+                {{dIcon field.icon}}
               {{/if}}
               {{field.handle}}
             </a>
